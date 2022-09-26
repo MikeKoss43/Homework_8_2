@@ -1,0 +1,149 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic');
+
+.wrapper {
+    
+	max-width: 1230px;
+	margin: 0 auto;
+	font-family: 'Lato';
+
+}
+
+.about__content {
+	margin: 120px 0 48px 0;
+}
+
+.about__content h1  {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 59.8px;
+	color: rgba(30, 33, 44, 1);
+	margin-bottom: 40px;
+}
+
+.about__text {
+	max-width: 600px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	color: rgba(66, 69, 81, 1);
+}
+
+.about__learn h3 {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 42px;
+	margin-bottom: 24px;
+}
+
+.about__learn ul {
+	margin-bottom: 118px;
+}
+
+li {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	color: rgba(66, 69, 81, 1);
+	
+}
+
+.about__learn li:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+.about__learn li {
+   background: url('../image/check.svg') 0 5px / auto auto no-repeat;
+	padding-left: 32px;
+
+}
+
+h4 {
+	color: rgba(30, 33, 44, 1);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+   letter-spacing: 1px;
+	margin-bottom: 8px;
+}
+
+.curator h1 {
+	color: rgba(30, 33, 44, 1);
+	font-size: 46px;
+	font-weight: 900;
+	margin-bottom: 16px;
+}
+
+h5 {
+	color: rgba(120, 122, 128, 1);
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 32px;
+}
+
+.curator__info {
+   margin-bottom: 32px; 
+}
+
+.curator__info li {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 25.6px;
+	
+}
+
+.item-one::before {
+	content: '';
+	display: inline-block;
+	background: url('../image/Star.png') 0 0 / 16px 16px no-repeat;
+	height: 16px;
+	width: 16px;
+	padding-left: 8px;
+}
+
+.item-two::before {
+	content: '';
+	display: inline-block;
+	background: url('../image/Play.png') 0 0 / auto auto no-repeat;
+	width: 16px;
+	height: 16px;
+	padding-left: 8px;
+}
+
+.item-three::before {
+	content: '';
+	display: inline-block;
+	background: url('../image/Profile.png') 0 0 / auto auto no-repeat;
+	width: 16px;
+	height: 16px;
+	padding-left: 8px;
+}
+
+.curator__text {
+	max-width: 600px;
+	margin-bottom: 100px;
+}
+
+footer {
+	margin-bottom: 100px;
+}
+
+.button-lesson {
+	color: red;
+	font-size: 40px;
+	padding: 20px 50px;
+	background-color: bisque;
+	border-radius: 0% 100% 100% 0% / 100% 49% 51% 0% ;
+	box-shadow: 10px 10px 20px black;
+}
+
+.button-lesson:hover {
+	background-color: rgb(243, 179, 101);
+}
+
+.button-lesson:active {
+	box-shadow: 0px 0px 20px black inset;
+}
+

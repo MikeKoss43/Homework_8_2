@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style-two.css">
+	<title>Document</title>
+</head>
+
+<body class="back">
+
+	<div class="wrapper">
+
+		<header>
+		
+				<h1>Хоумворк №8</h1>
+			
+		</header>
+
+		<main>
+
+			<h2>псевдоклассы</h2>
+
+			<div class="list">
+
+				<p class="hover">:hover-отображает изменения при наведении на элемент</p>
+				<p class="active">:active-изменения при нажатии</p>
+				<p><a class="focus" target="_blank" href="">:focus-при фокусировке кнопкой 'Tab'</a></p>
+				<p><a class="visited" target="_blank" href="">:visited-изменения если здесь уже жмакано</a></p>
+
+				<span>:first-child-любой первый элемент</span>
+				<div class="first-child">
+					
+					<p>Элемент списка</p>
+					<p>Элемент списка</p>
+					<p>Элемент списка</p>
+					<p>Элемент списка</p>
+				</div>
+
+				
+				<div class="last-child">
+					<span>:last-child-любой последний элемент</span>
+					<p>Тоже элемент списка</p>
+					<p>Тоже элемент списка</p>
+					<p>Тоже элемент списка</p>
+					<p>Тоже элемент списка</p>
+					<p>last-child списка</p>
+				</div>
+
+				<div class="last-of-type">
+					<span>:last-of-type-последний элемент данного типа внутри родителя(например .classp p:last-of-type)</span>
+					<p>Элемент p</p>
+					<p>Элемент p</p>
+					<p>Элемент p</p>
+					<p>последний элемент p</p>
+					<a target="_blank" href="">Я ссылка</a>
+					<a target="_blank" href="">Я отсылка</a>
+					<a target="_blank" href="">Я посылка</a>
+				</div>
+
+				<div class="first-of-type">
+					<span>first-of-type первый элемент данного типа внутри родителя</span>
+					<a target="_blank" href="">Я ссылка</a>
+					<a target="_blank" href="">Я отсылка</a>
+					<a target="_blank" href="">Я посылка</a>
+					<p>первый элемент p</p>
+					<p>Элемент p</p>
+					<p>Элемент p</p>
+					<p>Элемент p</p>
+				</div>
+
+				<span>:nth-child(3)-обращение к конкретным элементам в блоке по порядковому номеру</span>
+				<div class="ntl-child">
+					<p>1-й</p>
+					<p>2-й</p>
+					<p>3-й</p>
+					<p>4-й</p>
+					<p>5-й</p>
+				</div>
+
+				<span>:nth-child(odd)-каждый нечетный</span>
+				<div class="odd">
+					<p>Я нечетный</p>
+					<p>Я четный</p>
+					<p>Я нечетный</p>
+					<p>Я четный</p>
+					<p>Я нечетный</p>
+					<p>😎Я четкий</p>
+				</div>
+
+				<span>:nth-child(even)-каждый четный</span>
+				<div class="even">
+					<p>Я нечетный</p>
+					<p>Я четный</p>
+					<p>Я нечетный</p>
+					<p>Я четный</p>
+					<p>Я нечетный</p>
+					<p>😎Я тоже четкий</p>
+				</div>
+
+				<div class="lastchild">
+					<span> *:last-child-обращение к любому последнему элементу внутри родителя</span>
+					<p>Элемент</p>
+					<p>Элемент</p>
+					<p>Элемент</p>
+					<p>Элемент</p>
+
+				</div>
+
+			</div>
+
+			<hr>
+
+			<h2>псевдоэлементы</h2>
+
+			<span>::first-line-первая строка</span>
+			<div class="first-line">
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur inventore facilis
+					deserunt omnis. Libero, nobis temporibus. Laudantium expedita, unde aliquam quibusdam, porro sapiente
+					excepturi, totam sequi quisquam perferendis ab!</p>
+			</div>
+
+			<span>::first-letter-первый символ</span>
+			<div class="first-letter">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis fugiat ducimus iste unde ad tempore
+					quis laboriosam officia provident, est nam perferendis voluptate, labore cum dignissimos laborum
+					architecto non accusamus.</p>
+			</div>
+
+			<span>::before-перед элементом</span>
+			<div class="before">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt laboriosam quod voluptates
+					error eum cum delectus minus illo atque recusandae, provident dolor dignissimos similique consectetur
+					ducimus. Quidem, est doloremque?</p>
+			</div>
+
+			<div class="after">
+				<span>::after-после элемента</span>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente repudiandae dignissimos, natus quos
+					exercitationem, nisi officia suscipit error, ipsam excepturi laudantium in dolorum est soluta fuga
+					maiores id numquam sunt.</p>
+			</div>
+		</main>
+	</div>
+
+
+	
+
+	<footer>
+		<a class="buttong-game" href="game.html">Game</a>
+	</footer>
+
+	
+
+</body>
+
+</html>
